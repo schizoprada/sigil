@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "project"
+dynamic = ["version"]
+description = "runtime & execution suite"
+dependencies = [
+
+]
+
+[tool.hatch.version]
+path = "src/sigil/__init__.py"

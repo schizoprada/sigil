@@ -8,7 +8,7 @@ dynamic = ["version"]
 description = "runtime & execution suite"
 dependencies = [
     "loguru",
-    "typical"
+    #"typical @ git+https://github.com/schizoprada/typical.git"
 ]
 
 [tool.hatch.version]
